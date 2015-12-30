@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         options.setProperty("org", "xs930m");
         options.setProperty("type", "androidApp");
         options.setProperty("id", "android01");
-        options.setProperty("auth-method", "token");
+        options.setProperty("auth-method", "use-token-auth");
         options.setProperty("auth-token", "asec1234");
 
         DeviceClient myClient = null;
